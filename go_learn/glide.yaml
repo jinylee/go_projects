@@ -1,0 +1,14 @@
+package: .
+import:
+- package: github.com/go-xorm/xorm
+  version: ~0.6.4
+- package: github.com/labstack/echo
+  version: ~3.3.0
+  subpackages:
+  - middleware
+- package: github.com/labstack/gommon
+  version: ~0.2.4
+  subpackages:
+  - log
+- package: github.com/mattn/go-sqlite3
+  version: ~1.6.0
